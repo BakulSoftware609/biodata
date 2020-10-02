@@ -46,6 +46,6 @@
 		<a class="btn btn-warning" href="./form_biodata.php">Kembali Ke Form Biodata</a>
 		<a href="./hapus_semua_data.php" class="btn btn-danger" onclick="return confirm('Anda Yakin Ingin Menghapus Semua Data?')">Hapus Semua Data</a>
 	</div>
-	<script href="http://localhost/bootstrap4/assets/js/vendor/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>

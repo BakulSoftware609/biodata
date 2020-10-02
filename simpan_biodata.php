@@ -13,7 +13,7 @@ if (isset($_POST['daftar'])) {
 	// cek apakah semua data diisi / belum
 	if (($nama && $ttl && $alamat) == NULL) {
 		echo "ISI DATA TERLEBIH DAHULU!";
-		echo '<link rel="stylesheet" href="http://localhost/bootstrap4/dist/css/bootstrap.min.css">';
+		echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">';
 		echo '<a class="btn btn-danger btn-sm m-4" href="./form_biodata.php">Kembali</a>';
 	}else{
 		// var_dump ($nama,$ttl,$alamat);exit();
@@ -25,7 +25,7 @@ if (isset($_POST['daftar'])) {
 		// jika berhasil
 		if ($result) {
 			echo '
-				<link rel="stylesheet" href="http://localhost/bootstrap4/dist/css/bootstrap.min.css">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 				<div class="container">
 					<div class="alert mt-2 alert-success alert-dismissible fade show" role="alert">
 					  <strong> Input berhasil!</strong>
@@ -40,7 +40,7 @@ if (isset($_POST['daftar'])) {
 		// jika gagal
 		}else{
 			echo '
-				<link rel="stylesheet" href="http://localhost/bootstrap4/dist/css/bootstrap.min.css">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 				<div class="container">
 					<div class="alert mt-2 alert-danger alert-dismissible fade show" role="alert">
 					  <strong> Input GAGAL!</strong>

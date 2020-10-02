@@ -4,7 +4,7 @@ $id = $_GET['id'];
 
 $query = mysqli_query($conn,"DELETE FROM `mahasiswa` WHERE `mahasiswa`.`id` = $id");
 if ($query) {
-	echo '<link rel="stylesheet" href="http://localhost/bootstrap4/dist/css/bootstrap.min.css">
+	echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 			<div class="container">
 				<div class="alert mt-2 alert-danger alert-dismissible fade show" role="alert">
 				  <strong> Data Berhasil DIhapus!</strong>
